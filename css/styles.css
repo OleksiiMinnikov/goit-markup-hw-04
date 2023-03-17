@@ -1,0 +1,398 @@
+:root{
+    --tex-color:#434455;
+    --title-color:#2e2f42;
+    --background-color: #FFFFFF;
+    --hero-titel: #FFFFFF;
+    --portfolio-bg-focus: #FFFFFF;
+    --hero-bg-text: #FFFFFF;
+    --subtitle-color: #2e2f42;
+    --header-logo-hi: #2e2f42;
+    --header-item: #2e2f42;
+    --background-color-hero: #2e2f42;
+    --background-color-footer: #2e2f42;
+    --ocean-color: #404bbf;
+    --iris-color: #4D5AE5;
+    --cornflower: #E7E9FC;
+    --cloud: #f4f4fd;
+
+}
+
+.container{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--tex-color);
+    background-color: var(--background-color);    
+}
+
+/************ WEB SAITE ************/
+
+/*********** STYLES TEXT***********/
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--subtitle-color);
+}
+
+/* ПАРАГРАФ!!! */
+.text { 
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* ****** */
+
+/* ЗАГОЛОВОК */
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+}
+/* ****** */
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/*********** HEADER ***********/
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--cornflower);
+
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-list{
+    gap: 40px;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.header-logo{
+    margin-right: 76px;
+}
+
+.header-logo:link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-color);
+    text-decoration: none;
+}
+
+
+.header-logo-hi {
+    color: var(--header-logo-hi)
+}
+
+.header-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--header-item);
+}
+
+.header-item:hover,
+.header-item:focus {
+    color: var(--ocean-color);
+}
+
+.header-address {
+    font-style: normal;
+    color: var(--tex-color);
+}
+
+.header-item-adress{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--tex-color);
+}
+
+
+.header-item-adress:hover,
+.header-item-adress:focus {
+    font-style: normal;
+    color: var(--ocean-color);
+}
+.header-address-link{
+    gap: 40px;
+}
+
+/*********** PAGEST INDEX ***********/
+/*********** SECTION_1_HERO ***********/
+
+.hero {
+    background-color: var(--background-color-hero);
+    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    
+}
+.hero-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--hero-titel);
+    
+    margin-bottom: 48px;
+}
+/*********** BUTTON_HERO ***********/
+.hero-button{
+    display: inline-block;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    min-height: 56px;
+    border: 1px solid transparent;
+
+    background-color: var(--iris-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--hero-bg-text);
+}
+
+.hero-button:hover,
+.hero-button:focus { 
+    background-color: var(--ocean-color);
+}
+
+
+/*********** SECTION_2_STRATEGY ***********/
+.strategy{
+    padding-top: 120px;  
+} 
+.strategy-item{
+    flex-direction: row;
+    flex-basis: calc((100% - 3 * 24) / 4);
+}
+
+
+.strategy-sub{
+    min-width: 264px;
+    align-items: baseline;
+    gap: 24px;  
+}
+.stratrgy-li{
+    min-width: 264px;
+    align-items: baseline;
+    gap: 24px;
+}
+
+.strategy-txt{
+    margin-top: 8px;
+}
+
+/*********** SECTION_3_STRATEGY ***********/
+.doing{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.doing-list{
+    list-style: none;
+    margin-top: 72px;
+    display: flex;
+    gap: 24px;    
+}
+
+
+/*********** SECTION_4_TEAM ***********/
+.team{
+    background-color: var(--cloud);
+    padding-top: 120px;
+    padding-bottom: 120px;    
+}
+
+.team-company{
+    margin-top: 72px;
+    display: flex;
+    gap: 24px;
+    align-items: baseline;
+}
+
+.team-people{
+    background-color: var(--background-color);
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+      
+}
+.team-item{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.team-sub{
+    align-items: baseline;
+}
+.team-tex{
+    margin-top: 8px;
+    align-items: baseline;
+}
+
+/*********** PAGEST PORTFOLIO ***********/
+/*********** BUTTON PORTFOLIO ***********/
+.portfolio-filter{
+    margin-top: 96px;
+   
+}
+.filter-but{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+}
+.portfolio-button {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: var(--cloud);
+    color: var(--iris-color);
+
+    min-width: 101px;
+    height: 48px;
+    border: 1px solid var(--cornflower);
+    border-radius: 4px;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: var(--ocean-color);
+    color: var(--portfolio-bg-focus);
+    border: 1px solid transparent;
+}
+/*********** SECTION PORTFOLIO ***********/
+.portfolio{
+    padding-top: 96px;
+    padding-bottom: 120px;  
+}
+
+.section-portfolio{
+    margin-top: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+
+.portfolio-cards{
+    border-right: 1px solid var(--cornflower);
+    border-bottom: 1px solid var(--cornflower);
+    border-left: 1px solid var(--cornflower);
+    padding: 32px 16px;
+}
+
+.portfolio-txt{
+    margin-top: 8px;
+}
+
+/*********** FOOTER ***********/
+.footer {
+    background-color: var(--background-color-footer);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}   
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-color);
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cornflower);
+
+    margin-top: 16px;
+    width: 264px;
+    height: 72px;
+}
+
+.footer-logo-hi {
+    color: var(--cloud);
+}
