@@ -357,6 +357,13 @@ body {
     justify-content: center;
 }
 
+.team-soc-link:hover,
+.team-soc-link:focus {
+    background-color: var(--ocean-color);
+}
+
+
+
 /*********** PAGEST PORTFOLIO ***********/
 /*********** BUTTON PORTFOLIO ***********/
 .portfolio-filter{
@@ -418,6 +425,12 @@ body {
 
 .portfolio-txt{
     margin-top: 8px;
+}
+
+/*********** Customers ***********/
+.customers{
+    padding-top: 120px;
+    padding-bottom: 280px;
 }
 
 /*********** FOOTER ***********/
