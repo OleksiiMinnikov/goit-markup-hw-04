@@ -456,6 +456,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     border: 1px solid #8E8F99;
     border-radius: 4px;
 }
+.customers-item:hover{
+    border: 1px solid var(--ocean-color)
+}
 
 .customers-icon {
     width: 100%;
