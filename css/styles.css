@@ -523,7 +523,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     align-items: center;
     justify-content: center;
     gap: 16px;
-
 }
 
 .footer-soc-item{
@@ -540,7 +539,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
+}
 .footer-soc-link:hover{
     background-color: #31D0AA;
 }
